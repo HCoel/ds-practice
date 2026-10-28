@@ -7,7 +7,9 @@ authors = [
     { name = "Hannah", email = "hannahecoel@gmail.com" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "pandera[polars]>=0.35.0",
+]
 
 [build-system]
 requires = ["uv_build>=0.11.7,<0.12.0"]
